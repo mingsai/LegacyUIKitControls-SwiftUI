@@ -17,6 +17,9 @@
 		079317D023236396000D5B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079317CE23236396000D5B9A /* LaunchScreen.storyboard */; };
 		079317DB23236396000D5B9A /* LegacyUIKitControls_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079317DA23236396000D5B9A /* LegacyUIKitControls_SwiftUITests.swift */; };
 		079317E623236396000D5B9A /* LegacyUIKitControls_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079317E523236396000D5B9A /* LegacyUIKitControls_SwiftUIUITests.swift */; };
+		079317F423236489000D5B9A /* SwiftUIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079317F323236489000D5B9A /* SwiftUIImagePicker.swift */; };
+		079317F6232365CE000D5B9A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079317F5232365CE000D5B9A /* ImagePicker.swift */; };
+		079317F823236C41000D5B9A /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079317F723236C41000D5B9A /* PhotoCaptureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		079317E123236396000D5B9A /* LegacyUIKitControls-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LegacyUIKitControls-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		079317E523236396000D5B9A /* LegacyUIKitControls_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyUIKitControls_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		079317E723236396000D5B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079317F323236489000D5B9A /* SwiftUIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImagePicker.swift; sourceTree = "<group>"; };
+		079317F5232365CE000D5B9A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		079317F723236C41000D5B9A /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				079317C323236394000D5B9A /* SceneDelegate.swift */,
 				079317C523236394000D5B9A /* Event.swift */,
 				079317C723236394000D5B9A /* ContentView.swift */,
+				079317F323236489000D5B9A /* SwiftUIImagePicker.swift */,
+				079317F723236C41000D5B9A /* PhotoCaptureView.swift */,
+				079317F5232365CE000D5B9A /* ImagePicker.swift */,
 				079317C923236396000D5B9A /* Assets.xcassets */,
 				079317CE23236396000D5B9A /* LaunchScreen.storyboard */,
 				079317D123236396000D5B9A /* Info.plist */,
@@ -275,9 +284,12 @@
 			files = (
 				079317C623236394000D5B9A /* Event.swift in Sources */,
 				079317C823236394000D5B9A /* ContentView.swift in Sources */,
+				079317F823236C41000D5B9A /* PhotoCaptureView.swift in Sources */,
 				079317BF23236394000D5B9A /* AppDelegate.swift in Sources */,
+				079317F6232365CE000D5B9A /* ImagePicker.swift in Sources */,
 				079317C223236394000D5B9A /* LegacyUIKitControls_SwiftUI.xcdatamodeld in Sources */,
 				079317C423236394000D5B9A /* SceneDelegate.swift in Sources */,
+				079317F423236489000D5B9A /* SwiftUIImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
