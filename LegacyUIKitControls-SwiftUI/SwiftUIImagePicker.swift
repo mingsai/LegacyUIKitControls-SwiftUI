@@ -19,10 +19,12 @@ struct SwiftUIImagePicker: View {
             image?.resizable()
             .scaledToFit()
             
+            if image == nil {Spacer()}
             Button(action: {
                 self.showImagePicker = true
             }) {
                Text("Open Camera")
+                .bold()
             }.padding()
                 .background(Color.red)
                 .foregroundColor(.white)
@@ -30,8 +32,6 @@ struct SwiftUIImagePicker: View {
                 .cornerRadius(10)
         }.sheet(isPresented: self.$showImagePicker) {
             PhotoCaptureView(showImagePicker: self.$showImagePicker, image: self.$image)
-            
-            Spacer()
         }
     }
 }
