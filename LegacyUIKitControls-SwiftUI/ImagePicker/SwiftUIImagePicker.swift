@@ -20,6 +20,7 @@ struct SwiftUIImagePicker: View {
             .scaledToFit()
             
             if image == nil {Spacer()}
+            
             Button(action: {
                 self.showImagePicker = true
             }) {
